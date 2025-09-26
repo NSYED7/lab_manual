@@ -1,0 +1,28 @@
+/* External CSS file with BTS theme */
+body {
+    background-color: lavenderblush;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    color: purple;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+p {
+    color: midnightblue;
+    font-size: 14px;
+}
+
+figure {
+    margin-top: 20px;
+}
+
+figcaption {
+    font-size: 13px;
+    font-style: italic;
+    color: darkslategray;
+}
