@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Intro</title>
+    <style>
+        body {
+            background-color: lavenderblush;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 40px;
+        }
+        h1 {
+            color: purple;
+        }
+        
+        p {
+            background: lightgrey;
+            border: 2px solid #3498db;
+            padding: 15px;
+            width: 400px;
+            margin: auto;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <h1>Naveen Syed</h1>
+    <hr>
+    <h2>Department of Computer Engineering</h2>
+    <h3>Course: Web Technologies</h3>
+
+    <img src="abc.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;">
+<br>
+    <p>
+    One of my favorite hobbies is watching <b>K-dramas</b>. 
+<!-- <b> makes text bold -->
+They always have <i>unique stories</i> and emotional moments that stay with me.
+<!-- <i> makes text italic --> 
+I also enjoy listening to <u>BTS</u>, because their music is inspiring and full of energy. <br>
+<!-- <u> underlines the text -->
+<br>
+<!-- <br> is used to insert a line break -->
+In my free time, I love <b>drawing</b>, which helps me relax and be creative. 
+
+Music makes my mood 10<sup>x</sup> better, and drawing feels like a 
+stress level going down to 0<sub>%</sub>. 
+<!-- <sup> is superscript, <sub> is subscript -->
+ 
+    </p>
+
+    <hr>
+
+</body>
+</html>
