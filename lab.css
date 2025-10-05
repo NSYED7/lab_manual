@@ -1,11 +1,10 @@
+/* Element Selector */
 body {
     background-color: lavenderblush;
     font-family: Verdana, sans-serif;
     text-align: center;
     
 }
-
-/* Element Selector */
 h1, h2, p {
     font-family: Arial, sans-serif;
 }
@@ -19,7 +18,7 @@ h1, h2, p {
 
 /* Class Selector */
 .highlight {
-    margin-left: 500px;
+    margin-left: 650px;
     width: 600px;
     background-color: rgb(236, 25, 239);
     font-style: italic;
@@ -36,7 +35,6 @@ h2, li {
 /* Descendant Selector */
 div p {
     color: purple;
-
 }
 
 /* Child Selector */
@@ -46,11 +44,11 @@ div > ul > li {
 }
 
 /* Pseudo-classes */
-ul li:first-child {
-    font-weight: bold;
+.member .images img:first-child {
+    border: 3px solid blue;  
 }
-ul li:last-child {
-    font-style: italic;
+.member .images img:last-child {
+    border: 3px solid green; 
 }
 
 /* Pseudo-elements */
@@ -59,10 +57,6 @@ ul li:last-child {
 }
 #main-title::after {
     content: " 💜";
-}
-p::first-letter {
-    font-size: 24px;
-    color: purple;
 }
 
 /* Image Styling */
@@ -74,28 +68,27 @@ p::first-letter {
 .member .images {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* ensures caption stays below image */
+    align-items: flex-start; 
     gap: 20px;
 }
 
-/* Middle image with caption */
-.member figure {
-    margin: 0;
-    text-align: center; /* caption centered below image */
-}
-
-.member figure figcaption {
-    margin-top: 5px;
-    font-weight: bold;
-    color: darkmagenta;
-}
-
-/* Resize all gallery images */
+/* Resize all images */
 .member img, .member figure img {
-    width: 500px;  /* adjust as needed */
-    height: auto;
+    width: 500px;  
+    height: 500px;
     border: 2px solid rgb(211, 52, 206);
     border-radius: 10px;
 }
 
+/*links */
+a {
+    color: purple;
+    text-decoration: none;
+    transition: color 0.3s;
+}
 
+/* On hover */
+a:hover {
+    color: darkmagenta;
+    text-decoration: underline;
+}
