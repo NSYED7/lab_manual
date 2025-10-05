@@ -1,0 +1,99 @@
+body {
+    background-color: lavenderblush;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+/* Element Selector */
+h1, h2, p {
+    font-family: Arial, sans-serif;
+}
+
+/* ID Selector */
+#main-title {
+    color: purple;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* Class Selector */
+.highlight {
+    margin-left: 700px;
+    width: 600px;
+    background-color: rgb(236, 25, 239);
+    font-style: italic;
+    padding: 5px;
+}
+
+/* Grouping Selector */
+h2, li {
+    border: 1px dashed gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Descendant Selector */
+div p {
+    color: purple;
+
+}
+
+/* Child Selector */
+div > ul > li {
+    color: darkgreen;
+    background-color: #fdd8fd;
+}
+
+/* Pseudo-classes */
+ul li:first-child {
+    font-weight: bold;
+}
+ul li:last-child {
+    font-style: italic;
+}
+
+/* Pseudo-elements */
+#main-title::before {
+    content: "💜 ";
+}
+#main-title::after {
+    content: " 💜";
+}
+p::first-letter {
+    font-size: 24px;
+    color: purple;
+}
+
+/* Image Styling */
+.member {
+    margin: 20px auto;
+}
+
+/* Flex layout for three images */
+.member .images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* ensures caption stays below image */
+    gap: 20px;
+}
+
+/* Middle image with caption */
+.member figure {
+    margin: 0;
+    text-align: center; /* caption centered below image */
+}
+
+.member figure figcaption {
+    margin-top: 5px;
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+/* Resize all gallery images */
+.member img, .member figure img {
+    width: 500px;  /* adjust as needed */
+    height: auto;
+    border: 2px solid rgb(211, 52, 206);
+    border-radius: 10px;
+}
