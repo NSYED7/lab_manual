@@ -19,7 +19,7 @@ h1, h2, p {
 
 /* Class Selector */
 .highlight {
-    margin-left: 600px;
+    margin-left: 500px;
     width: 600px;
     background-color: rgb(236, 25, 239);
     font-style: italic;
@@ -97,4 +97,5 @@ p::first-letter {
     border: 2px solid rgb(211, 52, 206);
     border-radius: 10px;
 }
+
 
