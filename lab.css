@@ -18,6 +18,7 @@ h1, h2, p {
 
 /* Class Selector */
 .highlight {
+    margin-left: 500px;
     width: 600px;
     background-color: rgb(236, 25, 239);
     font-style: italic;
@@ -91,6 +92,7 @@ a:hover {
     color: darkmagenta;
     text-decoration: underline;
 }
+
 
 
 
