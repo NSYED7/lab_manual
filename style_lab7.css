@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: lavenderblush;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(176, 23, 163);
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: purple;
+}
