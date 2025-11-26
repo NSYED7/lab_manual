@@ -1,0 +1,84 @@
+body {
+  font-family: "Verdana", sans-serif;
+  background-color: lavenderblush;
+  text-align: center;
+}
+
+header {
+  background-color: #d9b0da;
+  padding: 20px 0;
+  border: 3px solid purple;
+}
+
+header h1 {
+  color: purple;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-style: italic;
+  color: #6a0dad;
+}
+
+.album-gallery {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-items: center;
+}
+
+.album {
+  background-color: #f4e3ff;
+  border: 2px solid purple;
+  border-radius: 15px;
+  width: 320px;
+  padding: 15px;
+  box-shadow: 3px 3px 10px rgba(128, 0, 128, 0.2);
+}
+
+.album:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 12px rgba(128, 0, 128, 0.4);
+}
+
+.album img {
+  width: 100%;
+  height:100px;
+}
+
+.album h3 {
+  margin-top: 10px;
+  color: #800080;
+}
+
+.album p {
+  color: #4b0082;
+}
+
+footer {
+  background-color: #e5e9ff;
+  padding: 10px;
+  border-top: 3px solid purple;
+}
+
+footer a {
+  color: purple;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #f1c6ea;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  header p {
+    font-size: 10px;
+  }
+  .album p {
+    display: none;
+  }
