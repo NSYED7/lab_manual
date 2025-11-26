@@ -80,7 +80,9 @@ footer a:hover {
   header p {
     font-size: 10px;
   }
+  .album{ height:250px;}
   .album p {
     display: none;
   }
+
 
